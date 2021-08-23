@@ -1,0 +1,40 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+	"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "config": {
+    "commmitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "prettier --write",
+      "eslint",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duanyu950425/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duanyu950425/test/issues"
+  },
+  "homepage": "https://github.com/Duanyu950425/test#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2"
+  }
+}
