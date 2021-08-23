@@ -4,3 +4,6 @@
            * master分支只允许develop分支和hotfix分支的合并
            * 对于develop分支，只允许merge操作
            * 对于hotfix分支，允许rebase操作
+
+
+增加1
