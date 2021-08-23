@@ -1,0 +1,6 @@
+1. 指定合理的分支命名规则，创建分支时拒绝不符合规则的分支名被创建
+2. tag只允许在master分支标记，其余分支不可以创建master
+3. 制定合理的分支之间合并的规则，拒绝不合理的合并
+           * master分支只允许develop分支和hotfix分支的合并
+           * 对于develop分支，只允许merge操作
+           * 对于hotfix分支，允许rebase操作
