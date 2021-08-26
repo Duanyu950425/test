@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Duanyu950425/test/compare/v1.1.0...v1.2.0) (2021-08-26)
+
+
+### Features
+
+* **2:** test multi-developer merge branch, first ([b8c0a0b](https://github.com/Duanyu950425/test/commit/b8c0a0b9ae637c1f2c2ab898f7735d8593a7d3a2))
+* **3:** test multi-developer merge branch, sencond ([b95ee42](https://github.com/Duanyu950425/test/commit/b95ee42d20d115ca043ace7330e6feaf78617e28))
+* **4:** test merge branch ([ac7da0a](https://github.com/Duanyu950425/test/commit/ac7da0a7c5d23d3ada49b87683f8916638ab1842))
+
+
+### Bug Fixes
+
+* **2:** fix some content ([7cac620](https://github.com/Duanyu950425/test/commit/7cac620ce2aace8945349e48c272e3111e837d03))
+* **3:** fix some content ([084c7f1](https://github.com/Duanyu950425/test/commit/084c7f10e122bf371a82522de51f2a9973ed956f))
+
 ## [1.1.0](https://github.com/Duanyu950425/test/compare/v1.0.2...v1.1.0) (2021-08-26)
 
 
